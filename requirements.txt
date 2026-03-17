@@ -1,0 +1,11 @@
+numpy>=1.24
+pandas>=2.0
+pyarrow>=12.0
+torch>=2.0
+sentence-transformers>=2.2
+transformers>=4.30
+faiss-cpu>=1.7.4
+bm25s>=0.2
+datasets>=2.14
+huggingface_hub>=0.19
+tqdm>=4.65
