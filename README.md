@@ -67,9 +67,3 @@ search/          - BM25, dense retrieval, reranking
 ```
 
 ---
-
-## Hardware Notes
-
-- The embedding step uses GPU automatically if CUDA is available, otherwise falls back to CPU
-- CPU inference for the cross-encoder reranker is slow (~4s per query) — GPU recommended for real-time search
-- The full `data/` directory is around 15GB (embeddings + indexes + database)
